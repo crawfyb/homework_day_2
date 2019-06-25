@@ -50,3 +50,18 @@ end
       return "Oct"
     end
 end
+
+def volume_of_cube(side)
+  return side * side
+end
+
+
+def volume_of_sphere(radius)
+  answer = (4 / 3r) * Math::PI * (radius * radius * radius)
+  return answer.round(1)
+end
+
+def fahrenheit_to_celsius(f)
+  answer = (f - 32) * (5 / 9r)
+  return answer.round(1)
+end
